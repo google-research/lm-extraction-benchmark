@@ -16,7 +16,7 @@
 
 Example usage:
 PILE_DIR="/home/ncarlini/pile/the-eye.eu/public/AI/pile/train/"
-python3 extract_dataset.py $PILE_DIR train
+python3 load_dataset.py $PILE_DIR train
 
 """
 
