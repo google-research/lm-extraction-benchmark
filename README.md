@@ -51,7 +51,7 @@ sequence is correct.
 ## Dataset
 
 Our benchmark consists of a subset of 20,000 examples contained
-in [https://arxiv.org/abs/2101.00027](The Pile)'s training dataset.
+in [The Pile](https://arxiv.org/abs/2101.00027)'s training dataset.
 This dataset has been used to train many recent large language models,
 including GPT-Neo 1.3B, the model you will be extracting data from.
 
@@ -288,12 +288,12 @@ This is not an officially supported Google project.
 
 ## References
 
-* Carlini, Nicholas, et al. ["Extracting Training Data from Large Language Models."](https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-extracting) **30th USENIX Security Symposium**. 2021.
-* Carlini, Nicholas, et al. ["Quantifying Memorization across Neural Language Models."](https://arxiv.org/pdf/2202.07646.pdf) **arXiv preprint arXiv:2202.07646** 2022.
+* Carlini, Nicholas, et al. ["Extracting Training Data from Large Language Models."](https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-extracting) *30th USENIX Security Symposium*. 2021.
+* Carlini, Nicholas, et al. ["Quantifying Memorization across Neural Language Models."](https://arxiv.org/pdf/2202.07646.pdf) *arXiv preprint arXiv:2202.07646* 2022.
 
-* Feldman, Vitaly. ["Does learning require memorization? a short tale about a long tail"](https://dl.acm.org/doi/pdf/10.1145/3357713.3384290) **STOC** 2022.
+* Feldman, Vitaly. ["Does learning require memorization? a short tale about a long tail"](https://dl.acm.org/doi/pdf/10.1145/3357713.3384290) *STOC* 2022.
 
-* Kandpal, Nikhil, et al. ["Deduplicating training data mitigates privacy risks in language models"](https://arxiv.org/abs/2202.06539) **ICML** 2022.
+* Kandpal, Nikhil, et al. ["Deduplicating training data mitigates privacy risks in language models"](https://arxiv.org/abs/2202.06539) *ICML* 2022.
 
-* Lehman, Eric, et al. ["Does BERT Pretrained on Clinical Notes Reveal Sensitive Data?"](https://arxiv.org/abs/2104.07762). **NAACL 2021.
+* Lehman, Eric, et al. ["Does BERT Pretrained on Clinical Notes Reveal Sensitive Data?"](https://arxiv.org/abs/2104.07762). *NAACL* 2021.
 
