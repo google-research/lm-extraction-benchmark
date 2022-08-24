@@ -79,12 +79,12 @@ We will upload three datasets.
 Unfortunately we are unable to release the exact dataset as a numpy array.
 Instead, we have released CSV files that contain pointers into The Pile.
 The script [load_dataset.py](load_dataset.py) takes the CSV and a copy of The Pile
-on your disk and will pull out the actual dataset itsefl, generating
-`train_prefix.npy` and `train_suffix.npy`.
+on your disk and will pull out the actual dataset itself, generating
+`train_dataset.npy`, `train_prefix.npy` and `train_suffix.npy`.
 It will also give `train_preprefix.npy` which is 100 extra tokens of context.
 
 These examples have the property that
-`np.concatenate([train_preprefix[0], train_prefix[0], train_suffix])` is a substring of
+`np.concatenate([train_preprefix[0], train_prefix[0], train_suffix[0]]) = train_dataset[0]` is a substring of
 The Pile. Your task is to use `train_prefix` to complete `train_suffix`.
 
 
