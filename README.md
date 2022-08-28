@@ -14,7 +14,8 @@ While existing attacks are strong proof-of-concepts, existing attacks aren't clo
 to extracting the uppper bound of what the model has memorized.
 For example, out of GPT-2's entire 40 GB training dataset, just 600 examples
 were shown to be extractable by Carlini et al. (2021), for a total of 0.00000015%.
-However, recent work has found that large language models memorize as much as *a few percent* of their training datasets (Carlini et al. 2022),
+However, recent work has found that large language models memorize as
+much as *a few percent* of their training datasets (Carlini et al. 2022),
 but current attacks are quite inefficient (Lehman et al. 2021, Kandpal et al. 2022).
 
 
