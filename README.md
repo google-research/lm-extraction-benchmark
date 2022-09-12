@@ -60,6 +60,8 @@ Given the prefix, the task of the attack is to predict the suffix.
 
 These 20,000 examples are designed to be somewhat easy-to-extract.
 They were all chosen to meet the property that there exists a prefix length that causes the model to generate the suffix string exactly.
+Moreover, we only choose examples that are *well specified*, in the sense
+that given the 50-token prefix, there is only one continuation such that the entire sequence is contained in the training dataset.
 Therefore, we have good reason to believe that a sufficiently strong attack should
 be able to perfectly complete the suffix given each example's 50-token prefix.
 
@@ -76,8 +78,13 @@ We will upload three datasets.
   with the prefixes released on January 23rd, 2023 and the suffixes released on January 27th,
   2023.
 
-Unfortunately we are unable to release the exact dataset as a numpy array.
-Instead, we have released CSV files that contain pointers into The Pile.
+Unfortunately we are unable to host the exact dataset as a numpy array in this repository.
+But an [unofficial repository](https://github.com/ethz-privsec/lm-extraction-benchmark-data)
+maintained by our collaborator at ETH Zürich contains the data.
+
+Alternatively, if you would like to generate the data on your own from the
+original [Pile dataset](https://pile.eleuther.ai/),
+we have released CSV files that contain pointers into The Pile.
 The script [load_dataset.py](load_dataset.py) takes the CSV and a copy of The Pile
 on your disk and will pull out the actual dataset itself, generating
 `train_dataset.npy`, `train_prefix.npy` and `train_suffix.npy`.
