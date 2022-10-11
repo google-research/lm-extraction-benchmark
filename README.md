@@ -16,7 +16,7 @@ For example, out of GPT-2's entire 40 GB training dataset, just 600 examples
 were shown to be extractable by Carlini et al. (2021), for a total of 0.00000015%.
 However, recent work has found that large language models memorize as
 much as *a few percent* of their training datasets (Carlini et al. 2022),
-but current attacks are quite inefficient (Lehman et al. 2021, Kandpal et al. 2022).
+but current attacks are quite inefficient (Lehman et al. 2021, Kandpal et al. 2022, Huang et al. 2022).
 
 
 ## Objective
@@ -297,10 +297,8 @@ This is not an officially supported Google project.
 
 * Carlini, Nicholas, et al. ["Extracting Training Data from Large Language Models."](https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-extracting) *30th USENIX Security Symposium*. 2021.
 * Carlini, Nicholas, et al. ["Quantifying Memorization across Neural Language Models."](https://arxiv.org/pdf/2202.07646.pdf) *arXiv preprint arXiv:2202.07646* 2022.
-
 * Feldman, Vitaly. ["Does learning require memorization? a short tale about a long tail"](https://dl.acm.org/doi/pdf/10.1145/3357713.3384290) *STOC* 2022.
-
 * Kandpal, Nikhil, et al. ["Deduplicating training data mitigates privacy risks in language models"](https://arxiv.org/abs/2202.06539) *ICML* 2022.
-
 * Lehman, Eric, et al. ["Does BERT Pretrained on Clinical Notes Reveal Sensitive Data?"](https://arxiv.org/abs/2104.07762). *NAACL* 2021.
+* Huang, Jie, et al. ["Are Large Pre-Trained Language Models Leaking Your Personal Information?"](https://arxiv.org/abs/2205.12628). *Findings of EMNLP* 2022.
 
