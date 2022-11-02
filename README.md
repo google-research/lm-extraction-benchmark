@@ -273,10 +273,7 @@ If you're not sure if something is against the rules, please raise an issue to a
 
 ## Additional Details
 
-We will release full details of how the dataset was constructed,
-and an evaluation of existing baseline attacks,
-as a short arXiv paper in the coming weeks.
-This is a placholder for this reference.
+A detailed description of the dataset construction process is available at [detailed_description.pdf](detailed_description.pdf).
 
 
 ## Questions
