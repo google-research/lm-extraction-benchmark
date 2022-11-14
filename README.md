@@ -71,7 +71,7 @@ We will upload three datasets.
   This dataset contains both the prefixes and suffixes for your use. We recommend that you
   reserve the last 1,000 examples as an internal validation set to compute the
   efficacy of your attack, but that's up to you.
-* val_prefix.csv will be a set of 1,000 examples sampled from the Pile identically to
+* [datasets/val_prefixes.csv](datasets/val_prefix.csv) is a set of 1,000 examples sampled from the Pile identically to
   the training set; the prefix set will be released on November 7th and the suffixes on December 14th.
   This will be the dataset used   to run the validation round (see below for details).
 * test_prefix.csv will also be a set of 1,000 examples sampled identically to the above two,
