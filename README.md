@@ -71,9 +71,9 @@ We will upload three datasets.
   This dataset contains both the prefixes and suffixes for your use. We recommend that you
   reserve the last 1,000 examples as an internal validation set to compute the
   efficacy of your attack, but that's up to you.
-* [datasets/val_prefixes.csv](datasets/val_prefix.csv) is a set of 1,000 examples sampled from the Pile identically to
-  the training set; the prefix set will be released on November 7th and the suffixes on December 14th.
-  This will be the dataset used   to run the validation round (see below for details).
+* [datasets/val_prefixes.npy](datasets/val_prefix.npy) is a set of 1,000 examples sampled from the Pile identically to
+  the training set; the prefix set was released on November 14th and the suffixes will be released on December 14th.
+  This will be the dataset used to run the validation round (see below for details).
 * test_prefix.csv will also be a set of 1,000 examples sampled identically to the above two,
   with the prefixes released on January 23rd, 2023 and the suffixes released on January 27th,
   2023.
@@ -258,7 +258,7 @@ If you're not sure if something is against the rules, please raise an issue to a
 
 * August 22nd: Contest announced. We release in this repository the rules, submission criteria, and training dataset.
 
-* November 7th: Validation prefixes released. This validation round will allow participants to check how well they are doing compared to others, and also allow everyone to verify they are able to follow the submission criteria correctly.
+* November 14th: Validation prefixes released. This validation round will allow participants to check how well they are doing compared to others, and also allow everyone to verify they are able to follow the submission criteria correctly.
 
 * December 9th AOE: Validation round closes. Teams submit validation set solutions by emailing CSV file to lm-extraction-competition@googlegroups.com.
 
