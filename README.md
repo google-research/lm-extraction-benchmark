@@ -266,7 +266,7 @@ If you're not sure if something is against the rules, please raise an issue to a
 
 * January 20th AOE: Final Code submission deadline. As discussed above, to mitigate cheating we will require teams submit code ahead of the test set release. This is that deadline.
 
-* January 23th: Test prefixes released. Teams will then have five days to run their code on the test prefixes---because at most 24 hours of compute are allowed for the final submission, this should be more than enough.
+* January 23th: Test prefixes released at [datasets/test_prefix.npy](datasets/test_prefix.npy). Teams will then have five days to run their code on the test prefixes---because at most 24 hours of compute are allowed for the final submission, this should be more than enough.
 
 * January 27th AOE: Test round closes. Teams submit test set suffixes, a short 2-5 page paper describing the techniques being used, and (in exceptional circumstances) a .patch file modifying the code to run on the test set.
 
