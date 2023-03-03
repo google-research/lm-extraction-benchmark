@@ -301,3 +301,8 @@ This is not an officially supported Google project.
 
 * Lehman, Eric, et al. ["Does BERT Pretrained on Clinical Notes Reveal Sensitive Data?"](https://arxiv.org/abs/2104.07762). *NAACL* 2021.
 
+## Presented Submissions
+These submissions were presented during the [SATML conference:](https://www.youtube.com/watch?v=IPs7BSNmy5A)
+
+* Yu, Weichen, et al. ["Bag of Tricks for Training Data Extraction from Language Models"](https://arxiv.org/abs/2302.04460)
+* Al-Kaswan, Ali, et al. ["Targeted Attack on GPT-Neo for the SATML Language Model Data Extraction Challenge"](https://arxiv.org/abs/2302.07735)
